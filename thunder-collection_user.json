@@ -1,0 +1,103 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "user",
+    "dateExported": "2023-03-24T22:38:08.071Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "08e06793-17c6-40d3-9f5a-b0041a71f8c2",
+            "colId": "4adfd7cd-315c-4324-8ff1-330560f0c7e3",
+            "containerId": "",
+            "name": "user",
+            "url": "user",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-03-24T22:37:20.371Z",
+            "modified": "2023-03-24T22:37:20.371Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fa14a8ba-acc8-4ade-8ebe-a97d6db2b27d",
+            "colId": "4adfd7cd-315c-4324-8ff1-330560f0c7e3",
+            "containerId": "",
+            "name": "localhost:3000/api/user/8",
+            "url": "localhost:3000/api/user/8",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-03-24T22:37:28.622Z",
+            "modified": "2023-03-24T22:37:28.622Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "56a0959f-9ff9-4e4e-b98b-55fef998ed21",
+            "colId": "4adfd7cd-315c-4324-8ff1-330560f0c7e3",
+            "containerId": "",
+            "name": "INSERTAR INFORMACION",
+            "url": "http://localhost:3000/api/user",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-03-24T22:37:35.606Z",
+            "modified": "2023-03-24T22:37:35.606Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"messy\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7d91931f-20f4-4599-9475-e7258249b1e4",
+            "colId": "4adfd7cd-315c-4324-8ff1-330560f0c7e3",
+            "containerId": "",
+            "name": "ACTUALIZAR",
+            "url": "localhost:3000/api/user/",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-03-24T22:37:41.220Z",
+            "modified": "2023-03-24T22:37:41.220Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":6,\n  \"name\":\"Jonatan palacio palacio\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cc596080-79c8-4d8f-810d-011c383357bd",
+            "colId": "4adfd7cd-315c-4324-8ff1-330560f0c7e3",
+            "containerId": "",
+            "name": "BUSCADOR",
+            "url": "http://localhost:3000/api/user",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-24T22:37:46.983Z",
+            "modified": "2023-03-24T22:37:46.983Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f4dbf658-e6e6-4509-82d0-908ba6740b8e",
+            "colId": "4adfd7cd-315c-4324-8ff1-330560f0c7e3",
+            "containerId": "",
+            "name": "MOSTRAR ",
+            "url": "http://localhost:3000/api/user/2",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-03-24T22:37:52.731Z",
+            "modified": "2023-03-24T22:37:52.731Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

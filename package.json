@@ -1,0 +1,36 @@
+{
+  "name": "practicagit",
+  "version": "1.0.0",
+  "description": "repaso git y node",
+  "main": "app/index.js",
+  "scripts": {
+    "dev": " set NODE_ENV=developer& nodemon app/index.js --exec babel-node",
+    "qa": " set NODE_ENV=qa& nodemon app/index.js --exec babel-node",
+    "start": " set NODE_ENV=production& node dit/index.js --exec babel-node",
+    "build": "babel app --out-dir dit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Capacho12/"
+  },
+  "author": "Emanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Capacho12//issues"
+  },
+  "homepage": "https://github.com/Capacho12/#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.21"
+  }
+}
